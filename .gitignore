@@ -1,0 +1,9 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore VSCode system files
+.vscode
+
+# Large file size
+# find * -size +100M | sed 's/^.*\///' >> ./.gitignore; cat -n ./.gitignore | sort -uk2 | sort -nk1 | cut -f2- > ./.gitignore
+operatingSystemNotes.pdf
